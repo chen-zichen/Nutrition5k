@@ -31,22 +31,44 @@ def load_the_data(dataset_path, images_base_path):
     # Extract the info
     nutritional_info_with_images = extract_nutritional_info_and_images(dataset_path, images_base_path)
     return nutritional_info_with_images
+def save_image_to_pdf(image_path, save_path):
+    from fpdf import FPDF
+
+    # NOTE: temp
+    # save the image to a pdf
+    pdf = FPDF()
+    
+    pdf.add_page()
+        # if the image is broken, this will raise an error
+    try:
+        pdf.image(image_path, x=10, y=8, w=100)
+        pdf.output(save_path)
+        return True  # Successfully saved to PDF
+    except:
+        return False
 
 def get_info(info_data, breakpoint, calories_threshold=50):
 
     selected_dishes = {}
     for (i, dish) in enumerate(info_data):
-        if dish['calories'] > 50:
-            print(f"Dish {i+1}: {dish['dish_id']}")
-            print(f"Calories: {dish['calories']}")
-            print(f"Total Mass: {dish['total_mass']}")
-            print(f"Total Fat: {dish['total_fat']}")
-            print(f"Total Carbohydrates: {dish['total_carbohydrates']}")
-            print(f"Total Protein: {dish['total_protein']}")
-            print(f"Image Path: {dish['image_path']}")
-            print()
-            selected_dishes[i] = dish
-        if i == breakpoint:
+        if dish['calories'] > calories_threshold:
+            # save image to a temp pdf to check whether the image is broken
+            # if save_image_to_pdf does not have any error, then the image is not broken
+            
+            # save the image to a temp pdf
+            continue_or_not = save_image_to_pdf(dish['image_path'], 'temp.pdf')
+            if continue_or_not:
+                print(f"Dish {i+1}: {dish['dish_id']}")
+                print(f"Calories: {dish['calories']}")
+                print(f"Total Mass: {dish['total_mass']}")
+                print(f"Total Fat: {dish['total_fat']}")
+                print(f"Total Carbohydrates: {dish['total_carbohydrates']}")
+                print(f"Total Protein: {dish['total_protein']}")
+                print(f"Image Path: {dish['image_path']}")
+                print()
+                selected_dishes[i] = dish
+            
+        if len(selected_dishes) >= breakpoint:
             break
     return selected_dishes
 
@@ -68,4 +90,65 @@ def save_info_to_pdf(extracted_info, save_path):
         pdf.cell(200, 10, txt = "", ln = True, align = 'L')
         
     pdf.output(save_path)
+
+# def save_question_to_pdf(question_set, save_path, task, question_id, beginning_path):
+def save_question_to_pdf(question_sets, save_path, beginning_path):
+    from fpdf import FPDF
+
+    pdf = FPDF()
+
+
+    for item in question_sets:
+        task = question_sets[item][0]['task']
+        question_id = question_sets[item][0]['question_id']
+        question_set = question_sets[item]
+
+        # save the questions: A, B to pdf, including their images
+    
+        pdf.set_font("Arial", size = 12)
+        pdf.add_page()
+        pdf.cell(200, 10, txt = f"Task: {task}", ln = True, align = 'L')
+        pdf.cell(200, 10, txt = f"Question ID: {question_id}", ln = True, align = 'L')
+        # Question A and B are in 2 columns layout
+        pdf.set_fill_color(200, 220, 255)
+        pdf.set_draw_color(0)
+        pdf.set_line_width(0.3)
+        col_width = pdf.w / 2.2
+        row_height = pdf.font_size
+        pdf.set_font('Arial', 'B', 12)
+        pdf.ln(row_height)
+        # Headers
+        pdf.set_font('Arial', '', 12)
+        # Data
+        for i in range(len(question_set)):
+            pdf.cell(col_width, row_height, f"Dish {i+1}", border=1)
+        pdf.ln(row_height)
+        # Images 
+        # align with dish 1 and dish 2
+        pdf.image(question_set[0]['image_path'], x = 10, y = 70, w = 50, h = 50)
+        pdf.image(question_set[1]['image_path'], x = 120, y = 70, w = 50, h = 50)
+
+        # info aligns with dish 1 and dish 2 after the images
+        pdf.ln(row_height)
+        for i in range(len(question_set)):
+            pdf.cell(col_width, row_height, f"Calories: {question_set[i]['calories']}", border=1)
+        pdf.ln(row_height)
+        for i in range(len(question_set)):
+            pdf.cell(col_width, row_height, f"Total Mass: {question_set[i]['total_mass']}", border=1)
+        pdf.ln(row_height)
+        for i in range(len(question_set)):
+            pdf.cell(col_width, row_height, f"Total Fat: {question_set[i]['total_fat']}", border=1)
+        pdf.ln(row_height)
+        for i in range(len(question_set)):
+            pdf.cell(col_width, row_height, f"Total Carbohydrates: {question_set[i]['total_carbohydrates']}", border=1)
+        pdf.ln(row_height)
+        for i in range(len(question_set)):
+            pdf.cell(col_width, row_height, f"Total Protein: {question_set[i]['total_protein']}", border=1)
+        pdf.ln(row_height)
+        
+    # save to pdf
+    pdf.output(save_path)
+    
+
+
 

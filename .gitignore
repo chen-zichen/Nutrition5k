@@ -3,3 +3,6 @@ metadata/
 dish_ids/
 .DS_Store*
 question/
+*.pdf
+*.pyc
+*/__pycache__/*
