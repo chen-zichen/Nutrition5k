@@ -1,0 +1,20 @@
+[
+    {
+        "dish_id": "dish_1561575474",
+        "calories": 120.058434,
+        "total_mass": 183.0,
+        "total_fat": 4.966118,
+        "total_carbohydrates": 17.412746,
+        "total_protein": 2.990431,
+        "image_path": "question_2/images/dish_1561575474.png"
+    },
+    {
+        "dish_id": "dish_1563216717",
+        "calories": 246.007996,
+        "total_mass": 332.0,
+        "total_fat": 5.636517,
+        "total_carbohydrates": 16.284782,
+        "total_protein": 33.06871,
+        "image_path": "question_2/images/dish_1563216717.png"
+    }
+]

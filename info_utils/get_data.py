@@ -27,9 +27,44 @@ def extract_nutritional_info_and_images(dataset_path, images_base_path):
 
     return nutritional_info
 
+def extract_nutritional_info_from_images(dataset_path, images_base_path):
+    nutritional_info = []
+    dish_ids = []
+    # for all images in the images_base_path
+    for root, dirs, files in os.walk(images_base_path):
+        for file in files:
+            if file.endswith('.png'):
+                dish_id = file.split('.')[0]
+                # remove the 'dish_' prefix
+                # dish_id = dish_id[5:]
+                # record the dish_id
+                dish_ids.append(dish_id)
+
+    with open(dataset_path, 'r') as file:
+        for line in file:
+            parts = line.strip().split(',')
+            dish_id = parts[0]
+            if dish_id in dish_ids:
+                dish_info = {
+                    'dish_id': dish_id,
+                    'calories': float(parts[1]),
+                    'total_mass': float(parts[2]),
+                    'total_fat': float(parts[3]),
+                    'total_carbohydrates': float(parts[4]),
+                    'total_protein': float(parts[5]),
+                }
+                nutritional_info.append(dish_info)
+    return nutritional_info
+
+
+    
+    
+
 def load_the_data(dataset_path, images_base_path):
     # Extract the info
-    nutritional_info_with_images = extract_nutritional_info_and_images(dataset_path, images_base_path)
+    # nutritional_info_with_images = extract_nutritional_info_and_images(dataset_path, images_base_path)
+    nutritional_info_with_images = extract_nutritional_info_from_images(dataset_path, images_base_path)
+
     return nutritional_info_with_images
 def save_image_to_pdf(image_path, save_path):
     from fpdf import FPDF
