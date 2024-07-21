@@ -1,0 +1,642 @@
+{
+    "dish_1562008979": {
+        "dish_id": "dish_1562008979",
+        "calories": 382.936646,
+        "total_mass": 290.0,
+        "total_fat": 22.224644,
+        "total_carbohydrates": 10.17357,
+        "total_protein": 35.345387
+    },
+    "dish_1564686855": {
+        "dish_id": "dish_1564686855",
+        "calories": 1030.160645,
+        "total_mass": 435.0,
+        "total_fat": 52.116467,
+        "total_carbohydrates": 85.930336,
+        "total_protein": 56.845505
+    },
+    "dish_1566417516": {
+        "dish_id": "dish_1566417516",
+        "calories": 385.402527,
+        "total_mass": 425.0,
+        "total_fat": 36.516472,
+        "total_carbohydrates": 23.505039,
+        "total_protein": 33.699574
+    },
+    "dish_1561753238": {
+        "dish_id": "dish_1561753238",
+        "calories": 298.034393,
+        "total_mass": 333.0,
+        "total_fat": 13.71139,
+        "total_carbohydrates": 14.026631,
+        "total_protein": 28.881098
+    },
+    "dish_1560360055": {
+        "dish_id": "dish_1560360055",
+        "calories": 362.734009,
+        "total_mass": 180.0,
+        "total_fat": 27.786999,
+        "total_carbohydrates": 4.154,
+        "total_protein": 22.556999
+    },
+    "dish_1567106825": {
+        "dish_id": "dish_1567106825",
+        "calories": 220.200867,
+        "total_mass": 104.0,
+        "total_fat": 16.905151,
+        "total_carbohydrates": 3.357732,
+        "total_protein": 13.460875
+    },
+    "dish_1566849327": {
+        "dish_id": "dish_1566849327",
+        "calories": 551.702026,
+        "total_mass": 362.0,
+        "total_fat": 31.255999,
+        "total_carbohydrates": 14.87,
+        "total_protein": 55.122002
+    },
+    "dish_1560527191": {
+        "dish_id": "dish_1560527191",
+        "calories": 663.989319,
+        "total_mass": 318.0,
+        "total_fat": 45.395912,
+        "total_carbohydrates": 28.933577,
+        "total_protein": 34.38044
+    },
+    "dish_1559841163": {
+        "dish_id": "dish_1559841163",
+        "calories": 357.043518,
+        "total_mass": 335.0,
+        "total_fat": 18.222002,
+        "total_carbohydrates": 27.539,
+        "total_protein": 21.153002
+    },
+    "dish_1563395480": {
+        "dish_id": "dish_1563395480",
+        "calories": 370.521423,
+        "total_mass": 329.0,
+        "total_fat": 14.106581,
+        "total_carbohydrates": 31.81958,
+        "total_protein": 29.161797
+    },
+    "dish_1562785369": {
+        "dish_id": "dish_1562785369",
+        "calories": 440.577881,
+        "total_mass": 232.0,
+        "total_fat": 27.266018,
+        "total_carbohydrates": 17.102179,
+        "total_protein": 31.90546
+    },
+    "dish_1560369146": {
+        "dish_id": "dish_1560369146",
+        "calories": 474.832947,
+        "total_mass": 359.0,
+        "total_fat": 28.112362,
+        "total_carbohydrates": 16.167395,
+        "total_protein": 39.061409
+    },
+    "dish_1562094730": {
+        "dish_id": "dish_1562094730",
+        "calories": 428.194458,
+        "total_mass": 336.0,
+        "total_fat": 24.716473,
+        "total_carbohydrates": 11.798436,
+        "total_protein": 39.125523
+    },
+    "dish_1561580431": {
+        "dish_id": "dish_1561580431",
+        "calories": 258.003418,
+        "total_mass": 197.0,
+        "total_fat": 10.666273,
+        "total_carbohydrates": 18.090307,
+        "total_protein": 22.401735
+    },
+    "dish_1563391989": {
+        "dish_id": "dish_1563391989",
+        "calories": 462.847504,
+        "total_mass": 464.0,
+        "total_fat": 34.812225,
+        "total_carbohydrates": 15.968175,
+        "total_protein": 56.331486
+    },
+    "dish_1564687090": {
+        "dish_id": "dish_1564687090",
+        "calories": 498.018677,
+        "total_mass": 416.0,
+        "total_fat": 32.74007,
+        "total_carbohydrates": 40.485527,
+        "total_protein": 38.089466
+    },
+    "dish_1566419635": {
+        "dish_id": "dish_1566419635",
+        "calories": 605.871704,
+        "total_mass": 389.0,
+        "total_fat": 22.414907,
+        "total_carbohydrates": 50.75592,
+        "total_protein": 49.411755
+    },
+    "dish_1562613403": {
+        "dish_id": "dish_1562613403",
+        "calories": 398.703369,
+        "total_mass": 315.0,
+        "total_fat": 25.434467,
+        "total_carbohydrates": 19.955114,
+        "total_protein": 24.512461
+    },
+    "dish_1563823894": {
+        "dish_id": "dish_1563823894",
+        "calories": 368.341003,
+        "total_mass": 400.0,
+        "total_fat": 20.78381,
+        "total_carbohydrates": 18.219273,
+        "total_protein": 30.525043
+    },
+    "dish_1562096401": {
+        "dish_id": "dish_1562096401",
+        "calories": 366.863678,
+        "total_mass": 352.0,
+        "total_fat": 15.268942,
+        "total_carbohydrates": 11.065385,
+        "total_protein": 44.5625
+    },
+    "dish_1566590056": {
+        "dish_id": "dish_1566590056",
+        "calories": 815.647644,
+        "total_mass": 519.0,
+        "total_fat": 34.712166,
+        "total_carbohydrates": 63.927059,
+        "total_protein": 62.926941
+    },
+    "dish_1566844850": {
+        "dish_id": "dish_1566844850",
+        "calories": 491.235168,
+        "total_mass": 345.0,
+        "total_fat": 25.456135,
+        "total_carbohydrates": 30.58173,
+        "total_protein": 35.928123
+    },
+    "dish_1560367733": {
+        "dish_id": "dish_1560367733",
+        "calories": 661.441162,
+        "total_mass": 388.0,
+        "total_fat": 26.763107,
+        "total_carbohydrates": 54.923664,
+        "total_protein": 46.178318
+    },
+    "dish_1561575327": {
+        "dish_id": "dish_1561575327",
+        "calories": 453.680054,
+        "total_mass": 289.0,
+        "total_fat": 23.747952,
+        "total_carbohydrates": 25.363405,
+        "total_protein": 32.591888
+    },
+    "dish_1561576954": {
+        "dish_id": "dish_1561576954",
+        "calories": 345.343719,
+        "total_mass": 262.0,
+        "total_fat": 15.472434,
+        "total_carbohydrates": 8.670532,
+        "total_protein": 42.441227
+    },
+    "dish_1561665452": {
+        "dish_id": "dish_1561665452",
+        "calories": 624.853943,
+        "total_mass": 431.0,
+        "total_fat": 20.266373,
+        "total_carbohydrates": 27.939386,
+        "total_protein": 81.354126
+    },
+    "dish_1563478751": {
+        "dish_id": "dish_1563478751",
+        "calories": 950.395081,
+        "total_mass": 545.0,
+        "total_fat": 45.303986,
+        "total_carbohydrates": 54.133282,
+        "total_protein": 74.772202
+    },
+    "dish_1564685450": {
+        "dish_id": "dish_1564685450",
+        "calories": 623.007507,
+        "total_mass": 288.0,
+        "total_fat": 35.372643,
+        "total_carbohydrates": 38.998962,
+        "total_protein": 37.391777
+    },
+    "dish_1565023182": {
+        "dish_id": "dish_1565023182",
+        "calories": 638.714844,
+        "total_mass": 308.0,
+        "total_fat": 47.469677,
+        "total_carbohydrates": 9.244903,
+        "total_protein": 41.584
+    },
+    "dish_1563822663": {
+        "dish_id": "dish_1563822663",
+        "calories": 303.099365,
+        "total_mass": 317.0,
+        "total_fat": 13.86415,
+        "total_carbohydrates": 24.232965,
+        "total_protein": 22.034336
+    },
+    "dish_1562614980": {
+        "dish_id": "dish_1562614980",
+        "calories": 566.146057,
+        "total_mass": 485.0,
+        "total_fat": 28.809109,
+        "total_carbohydrates": 21.104092,
+        "total_protein": 57.345734
+    },
+    "dish_1563898813": {
+        "dish_id": "dish_1563898813",
+        "calories": 626.508484,
+        "total_mass": 382.0,
+        "total_fat": 47.430229,
+        "total_carbohydrates": 11.959503,
+        "total_protein": 37.696037
+    },
+    "dish_1563480534": {
+        "dish_id": "dish_1563480534",
+        "calories": 797.566895,
+        "total_mass": 576.0,
+        "total_fat": 33.881702,
+        "total_carbohydrates": 35.512001,
+        "total_protein": 81.875473
+    },
+    "dish_1563464670": {
+        "dish_id": "dish_1563464670",
+        "calories": 384.175995,
+        "total_mass": 156.0,
+        "total_fat": 13.646,
+        "total_carbohydrates": 47.477001,
+        "total_protein": 18.148001
+    },
+    "dish_1563827482": {
+        "dish_id": "dish_1563827482",
+        "calories": 894.521667,
+        "total_mass": 621.0,
+        "total_fat": 55.955669,
+        "total_carbohydrates": 24.548782,
+        "total_protein": 77.380013
+    },
+    "dish_1559590031": {
+        "dish_id": "dish_1559590031",
+        "calories": 402.746216,
+        "total_mass": 269.0,
+        "total_fat": 19.749413,
+        "total_carbohydrates": 42.538006,
+        "total_protein": 15.597241
+    },
+    "dish_1563567663": {
+        "dish_id": "dish_1563567663",
+        "calories": 514.112061,
+        "total_mass": 461.0,
+        "total_fat": 46.380054,
+        "total_carbohydrates": 33.964943,
+        "total_protein": 35.668152
+    },
+    "dish_1561577947": {
+        "dish_id": "dish_1561577947",
+        "calories": 623.204285,
+        "total_mass": 424.0,
+        "total_fat": 33.782948,
+        "total_carbohydrates": 12.882619,
+        "total_protein": 67.202637
+    },
+    "dish_1565118067": {
+        "dish_id": "dish_1565118067",
+        "calories": 623.429932,
+        "total_mass": 522.0,
+        "total_fat": 12.966,
+        "total_carbohydrates": 41.417,
+        "total_protein": 82.112991
+    },
+    "dish_1562790855": {
+        "dish_id": "dish_1562790855",
+        "calories": 739.376465,
+        "total_mass": 507.0,
+        "total_fat": 67.884842,
+        "total_carbohydrates": 23.783417,
+        "total_protein": 78.431671
+    },
+    "dish_1563567372": {
+        "dish_id": "dish_1563567372",
+        "calories": 951.910889,
+        "total_mass": 590.0,
+        "total_fat": 66.170242,
+        "total_carbohydrates": 81.629341,
+        "total_protein": 75.377937
+    },
+    "dish_1563309315": {
+        "dish_id": "dish_1563309315",
+        "calories": 613.17688,
+        "total_mass": 462.0,
+        "total_fat": 19.933886,
+        "total_carbohydrates": 13.225592,
+        "total_protein": 91.96595
+    },
+    "dish_1565036953": {
+        "dish_id": "dish_1565036953",
+        "calories": 586.944702,
+        "total_mass": 443.0,
+        "total_fat": 26.309841,
+        "total_carbohydrates": 46.808929,
+        "total_protein": 40.449074
+    },
+    "dish_1560369421": {
+        "dish_id": "dish_1560369421",
+        "calories": 413.946655,
+        "total_mass": 411.0,
+        "total_fat": 31.057137,
+        "total_carbohydrates": 29.280058,
+        "total_protein": 43.318707
+    },
+    "dish_1564778057": {
+        "dish_id": "dish_1564778057",
+        "calories": 575.185059,
+        "total_mass": 377.0,
+        "total_fat": 33.986801,
+        "total_carbohydrates": 35.539471,
+        "total_protein": 31.990742
+    },
+    "dish_1563823423": {
+        "dish_id": "dish_1563823423",
+        "calories": 700.530396,
+        "total_mass": 441.0,
+        "total_fat": 36.734417,
+        "total_carbohydrates": 15.258248,
+        "total_protein": 77.780296
+    },
+    "dish_1563565508": {
+        "dish_id": "dish_1563565508",
+        "calories": 403.862,
+        "total_mass": 387.0,
+        "total_fat": 24.761736,
+        "total_carbohydrates": 32.026699,
+        "total_protein": 26.264353
+    },
+    "dish_1559678457": {
+        "dish_id": "dish_1559678457",
+        "calories": 624.236084,
+        "total_mass": 465.0,
+        "total_fat": 37.50322,
+        "total_carbohydrates": 29.983656,
+        "total_protein": 43.010422
+    },
+    "dish_1567801520": {
+        "dish_id": "dish_1567801520",
+        "calories": 919.097168,
+        "total_mass": 600.0,
+        "total_fat": 42.248199,
+        "total_carbohydrates": 53.029022,
+        "total_protein": 79.971626
+    },
+    "dish_1562613974": {
+        "dish_id": "dish_1562613974",
+        "calories": 416.196686,
+        "total_mass": 375.0,
+        "total_fat": 19.963217,
+        "total_carbohydrates": 20.551165,
+        "total_protein": 39.229145
+    },
+    "dish_1565119493": {
+        "dish_id": "dish_1565119493",
+        "calories": 529.144897,
+        "total_mass": 280.0,
+        "total_fat": 24.306738,
+        "total_carbohydrates": 46.864986,
+        "total_protein": 29.865883
+    },
+    "dish_1563304369": {
+        "dish_id": "dish_1563304369",
+        "calories": 457.172119,
+        "total_mass": 326.0,
+        "total_fat": 16.765852,
+        "total_carbohydrates": 27.775938,
+        "total_protein": 47.262756
+    },
+    "dish_1563827188": {
+        "dish_id": "dish_1563827188",
+        "calories": 369.359955,
+        "total_mass": 377.0,
+        "total_fat": 12.975754,
+        "total_carbohydrates": 35.209259,
+        "total_protein": 29.444637
+    },
+    "dish_1564775216": {
+        "dish_id": "dish_1564775216",
+        "calories": 530.596924,
+        "total_mass": 340.0,
+        "total_fat": 33.648357,
+        "total_carbohydrates": 15.705273,
+        "total_protein": 40.410912
+    },
+    "dish_1562788845": {
+        "dish_id": "dish_1562788845",
+        "calories": 529.483459,
+        "total_mass": 372.0,
+        "total_fat": 25.366417,
+        "total_carbohydrates": 46.558498,
+        "total_protein": 39.395699
+    },
+    "dish_1567789230": {
+        "dish_id": "dish_1567789230",
+        "calories": 689.428406,
+        "total_mass": 300.0,
+        "total_fat": 56.708199,
+        "total_carbohydrates": 9.1372,
+        "total_protein": 34.373402
+    },
+    "dish_1566415591": {
+        "dish_id": "dish_1566415591",
+        "calories": 214.780777,
+        "total_mass": 316.0,
+        "total_fat": 16.906708,
+        "total_carbohydrates": 18.46199,
+        "total_protein": 16.844492
+    },
+    "dish_1563566965": {
+        "dish_id": "dish_1563566965",
+        "calories": 370.827026,
+        "total_mass": 286.0,
+        "total_fat": 12.088502,
+        "total_carbohydrates": 56.243797,
+        "total_protein": 13.121026
+    },
+    "dish_1563824155": {
+        "dish_id": "dish_1563824155",
+        "calories": 455.727905,
+        "total_mass": 361.0,
+        "total_fat": 23.568178,
+        "total_carbohydrates": 27.650078,
+        "total_protein": 34.405872
+    },
+    "dish_1564689219": {
+        "dish_id": "dish_1564689219",
+        "calories": 506.847046,
+        "total_mass": 474.0,
+        "total_fat": 28.081553,
+        "total_carbohydrates": 44.726837,
+        "total_protein": 27.231215
+    },
+    "dish_1559581378": {
+        "dish_id": "dish_1559581378",
+        "calories": 705.734741,
+        "total_mass": 372.0,
+        "total_fat": 52.459366,
+        "total_carbohydrates": 11.82625,
+        "total_protein": 44.451256
+    },
+    "dish_1565117463": {
+        "dish_id": "dish_1565117463",
+        "calories": 435.312988,
+        "total_mass": 248.0,
+        "total_fat": 15.939,
+        "total_carbohydrates": 53.588001,
+        "total_protein": 19.696001
+    },
+    "dish_1564690194": {
+        "dish_id": "dish_1564690194",
+        "calories": 500.918823,
+        "total_mass": 430.0,
+        "total_fat": 34.428013,
+        "total_carbohydrates": 43.004883,
+        "total_protein": 42.087563
+    },
+    "dish_1563812615": {
+        "dish_id": "dish_1563812615",
+        "calories": 402.784088,
+        "total_mass": 386.0,
+        "total_fat": 18.810022,
+        "total_carbohydrates": 17.201342,
+        "total_protein": 39.896744
+    },
+    "dish_1559933834": {
+        "dish_id": "dish_1559933834",
+        "calories": 775.029236,
+        "total_mass": 458.0,
+        "total_fat": 51.820778,
+        "total_carbohydrates": 22.731771,
+        "total_protein": 54.541294
+    },
+    "dish_1566416455": {
+        "dish_id": "dish_1566416455",
+        "calories": 372.326599,
+        "total_mass": 403.0,
+        "total_fat": 20.356852,
+        "total_carbohydrates": 37.502293,
+        "total_protein": 21.239441
+    },
+    "dish_1560367333": {
+        "dish_id": "dish_1560367333",
+        "calories": 291.633301,
+        "total_mass": 427.0,
+        "total_fat": 13.564784,
+        "total_carbohydrates": 18.360016,
+        "total_protein": 33.176849
+    },
+    "dish_1566847043": {
+        "dish_id": "dish_1566847043",
+        "calories": 434.877106,
+        "total_mass": 483.0,
+        "total_fat": 24.615379,
+        "total_carbohydrates": 15.362316,
+        "total_protein": 35.713329
+    },
+    "dish_1565021220": {
+        "dish_id": "dish_1565021220",
+        "calories": 543.713135,
+        "total_mass": 361.0,
+        "total_fat": 29.981041,
+        "total_carbohydrates": 41.561977,
+        "total_protein": 27.555956
+    },
+    "dish_1565033220": {
+        "dish_id": "dish_1565033220",
+        "calories": 908.60498,
+        "total_mass": 578.0,
+        "total_fat": 59.342999,
+        "total_carbohydrates": 19.202002,
+        "total_protein": 76.664001
+    },
+    "dish_1563827162": {
+        "dish_id": "dish_1563827162",
+        "calories": 319.539948,
+        "total_mass": 354.0,
+        "total_fat": 9.728971,
+        "total_carbohydrates": 34.357613,
+        "total_protein": 25.044996
+    },
+    "dish_1559667994": {
+        "dish_id": "dish_1559667994",
+        "calories": 445.299988,
+        "total_mass": 213.0,
+        "total_fat": 25.459999,
+        "total_carbohydrates": 35.803001,
+        "total_protein": 18.3964
+    },
+    "dish_1560369008": {
+        "dish_id": "dish_1560369008",
+        "calories": 223.801331,
+        "total_mass": 146.0,
+        "total_fat": 10.548676,
+        "total_carbohydrates": 15.552691,
+        "total_protein": 15.850163
+    },
+    "dish_1559233144": {
+        "dish_id": "dish_1559233144",
+        "calories": 398.063995,
+        "total_mass": 198.0,
+        "total_fat": 29.666,
+        "total_carbohydrates": 3.722,
+        "total_protein": 27.729
+    },
+    "dish_1563563527": {
+        "dish_id": "dish_1563563527",
+        "calories": 322.90625,
+        "total_mass": 302.0,
+        "total_fat": 23.71756,
+        "total_carbohydrates": 25.659563,
+        "total_protein": 25.201244
+    },
+    "dish_1559593794": {
+        "dish_id": "dish_1559593794",
+        "calories": 450.561432,
+        "total_mass": 380.0,
+        "total_fat": 25.549509,
+        "total_carbohydrates": 14.105441,
+        "total_protein": 40.378578
+    },
+    "dish_1563221157": {
+        "dish_id": "dish_1563221157",
+        "calories": 418.152008,
+        "total_mass": 352.0,
+        "total_fat": 21.499546,
+        "total_carbohydrates": 23.968084,
+        "total_protein": 33.805244
+    },
+    "dish_1563564828": {
+        "dish_id": "dish_1563564828",
+        "calories": 452.214478,
+        "total_mass": 355.0,
+        "total_fat": 25.004564,
+        "total_carbohydrates": 38.766243,
+        "total_protein": 34.570633
+    },
+    "dish_1566587714": {
+        "dish_id": "dish_1566587714",
+        "calories": 347.536987,
+        "total_mass": 373.0,
+        "total_fat": 12.770625,
+        "total_carbohydrates": 21.091198,
+        "total_protein": 37.732044
+    },
+    "dish_1564691450": {
+        "dish_id": "dish_1564691450",
+        "calories": 542.326721,
+        "total_mass": 366.0,
+        "total_fat": 35.475227,
+        "total_carbohydrates": 28.016935,
+        "total_protein": 32.657883
+    }
+}

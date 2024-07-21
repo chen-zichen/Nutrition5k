@@ -2,7 +2,7 @@ imagery/
 metadata/
 dish_ids/
 .DS_Store*
-question/
+# question/
 *.pdf
 *.pyc
 */__pycache__/*
